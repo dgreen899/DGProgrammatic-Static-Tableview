@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		72F4E3FF1F263C3500AE5E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E3FE1F263C3500AE5E3F /* AppDelegate.swift */; };
-		72F4E4011F263C3500AE5E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E4001F263C3500AE5E3F /* ViewController.swift */; };
 		72F4E4041F263C3500AE5E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F4E4021F263C3500AE5E3F /* Main.storyboard */; };
 		72F4E4071F263C3500AE5E3F /* DGStaticTableViewProgrammatic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E4051F263C3500AE5E3F /* DGStaticTableViewProgrammatic.xcdatamodeld */; };
 		72F4E4091F263C3500AE5E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F4E4081F263C3500AE5E3F /* Assets.xcassets */; };
 		72F4E40C1F263C3500AE5E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F4E40A1F263C3500AE5E3F /* LaunchScreen.storyboard */; };
+		72F4E4161F263DB400AE5E3F /* StaticExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E4151F263DB400AE5E3F /* StaticExampleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72F4E3FB1F263C3500AE5E3F /* DGStaticTableViewProgrammatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGStaticTableViewProgrammatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F4E3FE1F263C3500AE5E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72F4E4001F263C3500AE5E3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72F4E4031F263C3500AE5E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72F4E4061F263C3500AE5E3F /* DGStaticTableViewProgrammatic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DGStaticTableViewProgrammatic.xcdatamodel; sourceTree = "<group>"; };
 		72F4E4081F263C3500AE5E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72F4E40B1F263C3500AE5E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72F4E40D1F263C3500AE5E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F4E4151F263DB400AE5E3F /* StaticExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticExampleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				72F4E3FE1F263C3500AE5E3F /* AppDelegate.swift */,
-				72F4E4001F263C3500AE5E3F /* ViewController.swift */,
+				72F4E4151F263DB400AE5E3F /* StaticExampleVC.swift */,
 				72F4E4021F263C3500AE5E3F /* Main.storyboard */,
 				72F4E4081F263C3500AE5E3F /* Assets.xcassets */,
 				72F4E40A1F263C3500AE5E3F /* LaunchScreen.storyboard */,
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F4E4161F263DB400AE5E3F /* StaticExampleVC.swift in Sources */,
 				72F4E4071F263C3500AE5E3F /* DGStaticTableViewProgrammatic.xcdatamodeld in Sources */,
-				72F4E4011F263C3500AE5E3F /* ViewController.swift in Sources */,
 				72F4E3FF1F263C3500AE5E3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

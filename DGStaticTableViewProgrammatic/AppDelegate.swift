@@ -17,7 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        defineTableView()
+        
         return true
+    }
+    
+    func defineTableView() {
+        let tableViewController = StaticExampleVC(style: UITableViewStyle.grouped)
+        
+        let navController = UINavigationController(rootViewController: tableViewController)
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+
+
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
